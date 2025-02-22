@@ -1,16 +1,16 @@
-H1N1 and Seasonal Vaccine Prediction
-Overview
+#   H1N1 and Seasonal Vaccine Prediction
+## Overview
 This project aims to predict vaccine uptake for H1N1 and Seasonal Influenza using machine learning techniques. The dataset contains demographic, behavioral, 
 and medical factors influencing vaccine decisions. The goal is to build a robust classification model to help health organizations target vaccination campaigns effectively.
 
-Business and Data Understanding
+## Business and Data Understanding
 Stakeholder Audience
 The key stakeholders include:
 Public health officials – To design better vaccination awareness campaigns.
 Medical researchers – To analyze factors affecting vaccine uptake.
 Government agencies – To allocate resources effectively for vaccination drives.
 
-Dataset Choice
+## Dataset Choice
 The dataset comes from the National 2009 H1N1 Flu Survey (NHFS) and includes:
 Demographics – Age, gender, employment, etc.
 Health-related factors – Chronic illnesses, doctor recommendations.
@@ -19,18 +19,18 @@ Vaccine uptake labels – Whether an individual took the H1N1 and seasonal flu v
 Modeling
 The project uses a Decision Tree Classifier with the following configurations:
 
-Handling class imbalance: class_weight="balanced"
+## Handling class imbalance: class_weight="balanced"
 Hyperparameter tuning: Grid search for max_depth, criterion, and min_samples_split
 Feature Engineering: Encoding categorical variables, handling missing values.
 
-Evaluation
+## Evaluation
 I evaluated the models using:
 
-Accuracy – Measures overall correctness.
+## Accuracy – Measures overall correctness.
 Precision & Recall – Important due to class imbalance.
 AUC-ROC – Measures classification performance for imbalanced data.
 
-Results:
+## Results:
 H1N1 Vaccine Model:
 Test Accuracy: 84.05%
 Precision: 0.68 (for positive class)
