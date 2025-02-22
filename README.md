@@ -4,7 +4,6 @@ This project aims to predict vaccine uptake for H1N1 and Seasonal Influenza usin
 and medical factors influencing vaccine decisions. The goal is to build a robust classification model to help health organizations target vaccination campaigns effectively.
 
 ## Business and Data Understanding
-Stakeholder Audience
 The key stakeholders include:
 Public health officials – To design better vaccination awareness campaigns.
 Medical researchers – To analyze factors affecting vaccine uptake.
