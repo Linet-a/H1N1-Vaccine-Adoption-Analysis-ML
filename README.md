@@ -11,6 +11,7 @@ Government agencies – To allocate resources effectively for vaccination drives
 
 ## Dataset Choice
 The dataset comes from the National 2009 H1N1 Flu Survey (NHFS) and includes:
+
 Demographics – Age, gender, employment, etc.
 Health-related factors – Chronic illnesses, doctor recommendations.
 Behavioral aspects – Trust in vaccines, media influence.
