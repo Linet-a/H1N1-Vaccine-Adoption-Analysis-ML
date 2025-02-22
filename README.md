@@ -14,12 +14,16 @@ The dataset comes from the National 2009 H1N1 Flu Survey (NHFS) and includes:
 
 Demographics – Age, gender, employment, etc.
 Health-related factors – Chronic illnesses, doctor recommendations.
-Behavioral aspects – Trust in vaccines, media influence.
-Vaccine uptake labels – Whether an individual took the H1N1 and seasonal flu vaccine.
-Modeling
-The project uses a Decision Tree Classifier with the following configurations:
 
-## Handling class imbalance: class_weight="balanced"
+Behavioral aspects – Trust in vaccines, media influence.
+
+Vaccine uptake labels – Whether an individual took the H1N1 and seasonal flu vaccine.
+
+Modeling
+The project uses a Logist Regression as abase model , 
+Decision Tree Classifier with the following configurations:
+
+Handling class imbalance: class_weight="balanced"
 Hyperparameter tuning: Grid search for max_depth, criterion, and min_samples_split
 Feature Engineering: Encoding categorical variables, handling missing values.
 
